@@ -57,7 +57,7 @@ void merge_sort (int a[], int first, int last) { //O(nlogn)
         b[k++] = a[i++];
     while (j <= last)
         b[k++] = a[j++];
-    for(i=0; i<k; i++)
+    for (i=0; i<k; i++)
         a[first+i] = b[i];
 }
 
