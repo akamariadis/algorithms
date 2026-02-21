@@ -1,14 +1,12 @@
 #include <iostream>
 #include <unordered_map>
 #include <vector>
-#include <cstdlib>
-#include <ctime>
 #include <cstring>
 
 using namespace std;
 
-const int M = 1000003; 
-const int base = 256;  
+const int M = 1000003;
+const int base = 256;
 
 unsigned int hash_num(unsigned long long n) {
     return n % M;
